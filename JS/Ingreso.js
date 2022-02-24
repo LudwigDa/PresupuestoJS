@@ -1,7 +1,7 @@
 class Ingreso extends Dato{
     static contadorIngresos = 0;
-
-    cosntructor(desripcion, valor){
+    
+    constructor(descripcion, valor){
         super(descripcion, valor);
         this._id = ++Ingreso.contadorIngresos;
     }
